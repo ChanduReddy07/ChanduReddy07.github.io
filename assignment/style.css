@@ -1,0 +1,42 @@
+
+body{
+    color: white;
+    background-color: black;
+}
+div img{
+    height: 120px;
+    width: 200px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.lang{
+    justify-content: end;
+    margin: 35px;
+    border-radius: 1px;
+    align-items: center;
+}
+.op, .ip{
+    height: 40px;
+    width: 90px;
+    margin: 3px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: black;  
+}
+.hero{
+    text-align: center;
+    font: icon;
+}
+.s1, .s2{
+    color: white;
+    height: 50px;
+    width: 250px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
