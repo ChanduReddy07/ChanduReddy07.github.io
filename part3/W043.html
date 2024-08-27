@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" type="image/x.icon" href="/assets/apple.png">
+    <style>
+      * {
+        margin: 0px;
+      }
+      li {
+        padding: 5px;
+        display: inline-block;
+      }
+      .menu:hover .submenu {
+        display: block;
+      }
+      a {
+        text-decoration: none;
+      }
+      .submenu {
+        display: none;
+        position: absolute;
+        background-color: burlywood;
+        padding: 5px;
+      }
+      a:hover {
+        background-color: silver;
+      }
+      ul {
+        /* top: 0px; */
+            /*left: 0px; */
+        /* position: absolute; */
+        /* margin: 0px; */
+        padding: 0px;
+        background-color: silver;
+        /* right: 0px; */
+        /* display: flex; */
+      }
+      .container{
+        display: flex;
+        justify-content: space-between;
+        background-color: silver;
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>Company Name</div>
+
+      <div>
+        <ul>
+          <li>Home</li>
+          <!-- <li>Courses</li> -->
+          <li class="menu">
+            Courses
+            <div class="submenu">
+              <a href="#">Python</a><br />
+              <a href="#">Java</a><br />
+            </div>
+          </li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

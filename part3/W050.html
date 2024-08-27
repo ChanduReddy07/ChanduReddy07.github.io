@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div::first-line {
+        color: blue;
+      }
+      div::first-letter {
+        color: red;
+        font-size: 60px;
+      }
+      /* p.lesson::first-letter {
+        color: blue;
+        font-size: 50px;
+      } */
+      p::before{
+        content: url(/assets/1.PNG);
+      }
+      ::marker{
+        color: blue;
+        font-size: 23px;
+      }
+      ::selection{
+        color: maroon;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis nisi
+      sunt accusantium eos quibusdam dolorum nostrum maxime quidem assumenda est
+      cupiditate cumque animi, aliquam iure? Autem, enim. Ratione, autem rem!
+    </div>
+    <ul>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod ab,
+      reiciendis quae facilis quidem tempora esse earum, expedita et, sit
+      suscipit. Magnam sunt labore ipsa libero sit ex odit. A!
+    </p>
+  </body>
+</html>
